@@ -14,3 +14,32 @@ if (age >= 18) {
 } else {
     console.log("Несовершеннолетний");
 }
+
+
+// Домашка 2
+
+// Задача №1
+let old = parseInt(prompt("Введите ваш возраст: "));
+if (old < 65) {
+    console.log("Вам ещё рано на пенсию");
+} else {
+    console.log("Поздравляем с пенсионным возрастом!");
+}
+
+// Задача №3
+let n = parseInt(prompt("ваше число: "));
+if (n % 2 === 0) {
+    console.log("ваше число чётное");
+} else {
+    console.log("ваше число нечётное");
+}
+
+// Задача 7
+const userInput = prompt("Введите число:");
+const number = Number(userInput);
+if (number > 100) {
+  console.log("Большое число");
+} else if (number < 100) {
+  console.log("Маленькое число");
+} else if (number === 100) {
+  console.log("Точно 100!");}
